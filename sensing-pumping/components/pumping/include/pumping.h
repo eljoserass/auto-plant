@@ -1,1 +1,1 @@
-void func(void);
+void pumping(void);

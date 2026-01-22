@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pumping.h"
 
-void func(void)
+void pumping(void)
 {
-
+    printf("Pumping function called.\n");
 }

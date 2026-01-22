@@ -1,0 +1,18 @@
+# shared
+- [ ] add shared components, esp-now send and receive + possibly access point
+- [ ] validate esp-now functionality
+
+# sensing-pumping
+
+- [ ] write pumping abstractions, start / stop
+- [ ] write capacitive soil moisture abstraction at a snesor level
+- [ ] join sensor level abstraction into groups of two, each with a digital pin to receive power from, and OK water threshold constant
+- [ ] write abstraction to store all sensor readings
+- [ ] store timestamp from last reading
+- [ ] write function to get all the sensors that current reading is below threshold
+- [ ] main watering loop, send postion to water, wait confirmation, start pumping, inform pumping finish, send next position (or home)
+
+# robot hose
+- validate control of 4 motors through breakout board and external power
+- configure positions locations and trajectories ??
+- execute trajectories ??
