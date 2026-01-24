@@ -1,0 +1,6 @@
+#define PUMP_SIG_GPIO_PIN 23
+
+#define SENSOR_A0 13
+#define SENSOR_A1 14
+
+#define GROUP_A_POWER_PIN 34
